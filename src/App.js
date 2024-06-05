@@ -9,6 +9,7 @@ import Callback from './Component/CallBack/callback';
 import Memo from './Component/memo';
 import Ref from './Component/Ref'
 import Custom from './Component/custom';
+import Redux from './Redux/redux';
 function App() {
   return (
     <>
@@ -23,6 +24,7 @@ function App() {
           <Route path='/memo' element={<Memo/>} />
           <Route path='/ref' element={<Ref/>}/>
           <Route path='/custom' element={<Custom/>}/>
+          <Route path='/redux' element={<Redux/>}/>
         </Routes>
       </BrowserRouter>
     </>

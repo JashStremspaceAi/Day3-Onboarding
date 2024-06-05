@@ -45,11 +45,11 @@ const HomePage = () => {
       src:'https://miro.medium.com/v2/resize:fit:800/0*KktNDwFpYyItI-cs.png',
       text:"useRef is a React Hook used in functional components to add state variables to them, enabling them to hold and update data over the component's lifetime."
     },
-    custom:{
-      title:"CUSTOM HOOKS",
-      path:'/custom' ,
-      src:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcR5U16C8yXgBpl7-Bc7Itjx3_LRl425zINA&s',
-      text:"Custom Hooks is a React Hook used in functional components to add state variables to them, enabling them to hold and update data over the component's lifetime."
+    redux:{
+      title:"Redux",
+      path:'/redux' ,
+      src:'https://miro.medium.com/v2/resize:fit:500/1*tOI6UC5EaS2fPItCesI-AQ.png',
+      text:"Redux is a React Hook used in functional components to add state variables to them, enabling them to hold and update data over the component's lifetime."
     }
     }
   return (
@@ -70,7 +70,7 @@ const HomePage = () => {
     <Card props1={data.state} props2={data.effect}/>
     <Card props1={data.context} props2={data.reducer}/>
     <Card props1={data.callback} props2={data.memo}/>
-    <Card props1={data.ref} props2={data.custom}/>
+    <Card props1={data.ref} props2={data.redux}/>
     </>
   )
 }
